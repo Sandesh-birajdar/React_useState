@@ -4,8 +4,7 @@ const Counter = () => {
 
   
   let [count,setState]= useState(0);
-
-
+  
    function incrementcount() {
     setState(count+1);
     console.log(count);
